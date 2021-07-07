@@ -1,6 +1,7 @@
 @import url(utilities.css);
+/* declare global variabl by pseudo :root */
 :root{
-	--primary:#3DCFD3;
+    --primary:#3DCFD3;
 	--dark:#161616;
 	--pure:#FFFFFF;
 	--ternary:#898989;
@@ -40,4 +41,15 @@ header nav{
 }
 header nav .branding{
     margin-right: 3rem;
+}
+.hero.left img{
+    width: 400px;
+}
+.hero.right{
+    color:var(--pure);
+}
+.hero.right h6{
+    font-size:1.6rem;
+    color:var(--primary);
+    margin-bottom: 0.6rem;
 }
